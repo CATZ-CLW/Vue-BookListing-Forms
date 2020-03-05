@@ -7,9 +7,9 @@
       <label for="finishedReading">Finished Reading</label>
     </div>
     <div>
-      <input v-model="bookData.ownership" type="radio" value="borrowed" />
+      <input v-model="bookData.ownership" type="radio" value="Borrowed" />
       <label for="borrowed">Borrowed</label>
-      <input v-model="bookData.ownership" type="radio" value="bought" />
+      <input v-model="bookData.ownership" type="radio" value="Bought" />
       <label for="bought">Bought</label>
     </div>
     <button type="submit" name="button">Add Book</button>
